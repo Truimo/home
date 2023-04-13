@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     color: #121212;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 
 body::before {
