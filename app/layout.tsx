@@ -32,8 +32,8 @@ export default function RootLayout({children}: {
     children: ReactNode
 }) {
     return (
-        <html lang="zh-CN">
-        <body>{children}</body>
+        <html lang="zh-CN" className="h-full">
+        <body className="flex h-auto min-h-full font-sans text-[#121212] dark:text-[#fafbfc] dark:bg-[#1f1f1f]">{children}</body>
         </html>
     )
 }

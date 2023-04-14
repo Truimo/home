@@ -13,7 +13,7 @@ const notoSans = Noto_Sans({
 
 export default function Home() {
     return (
-        <main className="h-full w-full px-4 overflow-auto">
+        <main className="flex w-full px-4 flex-col justify-between">
             <div className="min-h-full w-full flex flex-col items-center content-center justify-center">
                 <div className={`${inter.className} text-3xl mb-3 font-medium`}>Hello, 欢迎来到我的主页</div>
                 <div className={`${notoSans.className} text-xs flex flex-row items-center justify-center flex-wrap gap-1`}>
