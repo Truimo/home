@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/app/style/globals.css";
 import {ReactNode} from "react";
 import {Metadata} from "next";
 import config from "@/site.config.cjs";
