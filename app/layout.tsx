@@ -6,7 +6,7 @@ import config from "@/site.config.cjs";
 export const metadata: Metadata = {
     title: {
         default: config.title,
-        template: `%s | ${config.siteName}`
+        template: `%s - ${config.siteName}`
     },
     description: config.description,
     viewport: {
