@@ -1,7 +1,7 @@
-import "@/style/globals.css";
-import {ReactNode} from "react";
-import {Metadata} from "next";
-import {config} from "@/config";
+import '@/style/index.css'
+import {ReactNode} from 'react'
+import {Metadata} from 'next'
+import {config} from '@/config'
 
 export const metadata: Metadata = {
     metadataBase: new URL(config.siteUrl),
@@ -33,8 +33,8 @@ export default function RootLayout({children}: {
     children: ReactNode
 }) {
     return (
-        <html lang="zh-CN" className="h-full">
-        <body className="flex h-auto min-h-full font-sans text-[#121212] dark:text-[#fafbfc] dark:bg-[#1f1f1f]">{children}</body>
+        <html lang="zh-CN" className="h-full noise">
+        <body className="flex h-auto min-h-full font-sans text-[#121212] dark:text-[#fafbfc]">{children}</body>
         </html>
     )
 }
