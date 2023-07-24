@@ -1,8 +1,30 @@
-export type Config = {
-    siteUrl: string;
-    siteName: string;
-    title: string;
-    description: string;
+interface ICP {
+    link: string
+    text: string
+}
+
+type ICPWithFalse = ICP | false;
+
+interface Owner {
+    name: string
+}
+
+export interface Config {
+    siteUrl: string
+    siteName: string
+    title: string
+    description: string
+}
+
+export interface LinkSection {
+    name: string
+    links: Link[]
+}
+
+export interface Link {
+    name: string
+    href: string
+    external?: boolean
 }
 
 export const config: Config = {
@@ -11,3 +33,30 @@ export const config: Config = {
     title: '我的学习笔记',
     description: '浅小沫的个人主页，Truimo`s Personal Home Page.',
 }
+
+export const owner: Owner = {
+    name: 'Truimo',
+}
+
+export const icp: ICPWithFalse = {
+    link: 'http://beian.miit.gov.cn/',
+    text: '湘ICP备2020021033号-1',
+}
+
+export const linkSections: LinkSection[] = [
+    {
+        name: '联系',
+        links: [
+            {
+                name: '发邮件',
+                href: 'mailto:xiaomo@20mo.cn',
+                external: true,
+            },
+            {
+                name: 'GitHub',
+                href: 'https://github.com/Truimo',
+                external: true,
+            },
+        ],
+    },
+]
