@@ -2,6 +2,8 @@ import '@/style/index.css'
 import {ReactNode} from 'react'
 import {Metadata} from 'next'
 import {config} from '@/config'
+import {Root} from '@/components/layout/root'
+import {sansFont, serifFont} from '@/lib/fonts'
 
 export const metadata: Metadata = {
     metadataBase: new URL(config.siteUrl),
@@ -33,8 +35,10 @@ export default function RootLayout({children}: {
     children: ReactNode
 }) {
     return (
-        <html lang="zh-CN" className="h-full noise">
-        <body className="flex h-auto min-h-full font-sans text-[#121212] dark:text-[#fafbfc]">{children}</body>
+        <html lang="zh-CN" className="noise">
+        <body className={`${sansFont.variable} ${serifFont.variable} m-0 h-full p-0 font-sans`}>
+        <Root>{children}</Root>
+        </body>
         </html>
     )
 }
