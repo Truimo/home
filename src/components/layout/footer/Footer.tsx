@@ -18,7 +18,7 @@ export const Footer = () => {
 
 const FooterInfo = () => {
     return (
-        <div className="footer">
+        <div className="footer text-base">
             {linkSections.map((section) => (
                 <div>
                     <span className="footer-title">{section.name}</span>
@@ -36,7 +36,7 @@ const FooterInfo = () => {
 
 const CopyRight = () => {
     return (
-        <div className="footer footer-center pt-4">
+        <div className="footer footer-center pt-4 text-base">
             <div>
                 <p>Copyright © 2023 <a href="/">{owner.name}</a>. <a href="https://github.com/Truimo/home#readme" target="_blank">Home</a>.</p>
                 {icp && (<p><a href={icp.link} rel="nofollow noreferrer" target="_blank">{icp.text}</a></p>)}
