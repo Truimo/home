@@ -8,7 +8,7 @@ export const Footer = () => {
         >
             <div className="px-4 sm:px-8">
                 <div className="mx-auto max-w-7xl lg:px-8">
-                    <FooterInfo/>
+                    {/*<FooterInfo/>*/}
                     <CopyRight/>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const CopyRight = () => {
     return (
         <div className="footer footer-center pt-4 text-base">
             <div>
-                <p>Copyright © 2023 <a href="/">{owner.name}</a>. <a href="https://github.com/Truimo/home#readme" target="_blank">Home</a>.</p>
+                <p>Copyright © 2023 <a href="/">{owner.name}</a>. <a>Home</a>.</p>
                 {icp && (<p><a href={icp.link} rel="nofollow noreferrer" target="_blank">{icp.text}</a></p>)}
             </div>
         </div>
