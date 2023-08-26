@@ -1,6 +1,6 @@
 import '@/style/index.css'
-import {ReactNode} from 'react'
 import {Metadata} from 'next'
+import type {FC, PropsWithChildren} from 'react'
 import {config} from '@/config'
 import {Root} from '@/components/layout/root'
 import {sansFont, serifFont} from '@/lib/fonts'
@@ -32,9 +32,7 @@ export const metadata: Metadata = {
     icons: config.icons
 }
 
-export default function RootLayout({children}: {
-    children: ReactNode
-}) {
+const RootLayout: FC<PropsWithChildren> = ({children}) => {
     return (
         <html lang="zh-CN" className="noise">
         <body className={`${sansFont.variable} ${serifFont.variable} m-0 h-full p-0 font-sans`}>
@@ -43,3 +41,5 @@ export default function RootLayout({children}: {
         </html>
     )
 }
+
+export default RootLayout
