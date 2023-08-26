@@ -9,11 +9,19 @@ interface Owner {
     name: string
 }
 
+interface Icon {
+    rel: string
+    type: string
+    sizes: string
+    url: string
+}
+
 export interface Config {
     siteUrl: string
     siteName: string
     title: string
     description: string
+    icons: Icon[]
 }
 
 export interface LinkSection {
@@ -32,6 +40,12 @@ export const config: Config = {
     siteName: '浅小沫',
     title: '我的学习笔记',
     description: '浅小沫的个人主页，Truimo`s Personal Home Page.',
+    icons: [{
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '500x500',
+        url: 'https://assets.truimo.com/avatars/min.png',
+    }]
 }
 
 export const owner: Owner = {
