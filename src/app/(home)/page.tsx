@@ -1,4 +1,4 @@
-import type { PropsWithChildren } from 'react'
+import type {FC, PropsWithChildren} from 'react'
 import {interFont} from '@/lib/fonts'
 import {clsxm} from '@/lib/helper'
 
@@ -12,15 +12,12 @@ export default function Home() {
     )
 }
 
-const Screen = (props: PropsWithChildren<{
+const Screen: FC<PropsWithChildren<{
     className?: string
-}>) => {
+}>> = ({children, className}) => {
     return (
-        <div className={clsxm(
-            'relative flex h-screen flex-col center',
-            props.className,
-        )}>
-            {props.children}
+        <div className={clsxm('relative flex h-screen flex-col center', className)}>
+            {children}
         </div>
     )
 }
