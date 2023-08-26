@@ -28,7 +28,8 @@ export const metadata: Metadata = {
     robots: {
         index: true,
         follow: true,
-    }
+    },
+    icons: config.icons
 }
 
 export default function RootLayout({children}: {
