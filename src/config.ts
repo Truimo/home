@@ -21,6 +21,7 @@ export interface Config {
     siteName: string
     title: string
     description: string
+    keywords: string[]
     icons: Icon[]
 }
 
@@ -38,8 +39,9 @@ export interface Link {
 export const config: Config = {
     siteUrl: 'https://www.truimo.com',
     siteName: '浅小沫',
-    title: '我的学习笔记',
+    title: '浅小沫 | Truimo',
     description: '浅小沫的个人主页，Truimo`s Personal Home Page.',
+    keywords: ['Truimo', '浅小沫', 'truimo', '小沫'],
     icons: [{
         rel: 'icon',
         type: 'image/png',

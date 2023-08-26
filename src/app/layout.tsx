@@ -12,6 +12,7 @@ export const metadata: Metadata = {
         template: `%s - ${config.siteName}`
     },
     description: config.description,
+    keywords: config.keywords,
     viewport: {
         width: 'device-width',
         initialScale: 1,
