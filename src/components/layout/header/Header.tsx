@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {config} from "@/config";
 
 export const Header = () => {
     return (
@@ -8,7 +9,7 @@ export const Header = () => {
             <HeaderBackground/>
             <div className="relative h-full flex items-center">
                 <div className="px-6 h-full flex center">
-                    <Link href="/">Home</Link>
+                    <Link href="/">{config.siteName}</Link>
                 </div>
             </div>
         </header>
