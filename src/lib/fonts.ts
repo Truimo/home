@@ -1,4 +1,4 @@
-import {Inter, Manrope, Noto_Serif_SC} from 'next/font/google'
+import {Inter, Manrope, Noto_Serif_SC, Titillium_Web} from 'next/font/google'
 
 const sansFont = Manrope({
     subsets: ['latin'],
@@ -20,4 +20,9 @@ const interFont = Inter({
     weight: ['400', '500', '700']
 })
 
-export {sansFont, serifFont, interFont}
+const titilliumWebFont = Titillium_Web({
+    subsets: ['latin'],
+    weight: '400'
+})
+
+export {sansFont, serifFont, interFont, titilliumWebFont}

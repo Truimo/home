@@ -1,28 +1,17 @@
-import type {FC, PropsWithChildren} from 'react'
-import {interFont} from '@/lib/fonts'
-import {clsxm} from '@/lib/helper'
-
-
-const Screen: FC<PropsWithChildren<{
-    className?: string
-}>> = ({children, className}) => {
-    return (
-        <div className={clsxm('relative flex h-screen flex-col center', className)}>
-            {children}
-        </div>
-    )
-}
+import Image from 'next/image'
+import clsx from 'clsx'
+import {interFont, titilliumWebFont} from '@/lib/fonts'
 
 export default function Home() {
     return (
-        <Screen>
-            <div className="min-h-full w-full flex flex-col items-center content-center justify-center">
-                <div className={`${interFont.className} text-3xl mb-3 font-medium leading-relaxed`}>
-                    <p>Hello, I'm <span className="text-sky-500 font-bold">Truimo</span>.</p>
-                    <p>Nice to meet you!</p>
-                    <p>Construction is underway...</p>
+        <div className="profile flex justify-center items-center">
+            <div className={`${interFont.className}`}>
+                <div className="inline-block h-[150px] w-[150px] rounded-full border overflow-hidden">
+                    <Image src="https://assets.truimo.com/avatars/min.png" alt="avatar" width={150} height={150}/>
                 </div>
+                <h1 className="text-3xl font-bold py-4">TRUIMO</h1>
+                <p className={clsx(titilliumWebFont.className, 'text-lg')}>Wonderful things will happen.</p>
             </div>
-        </Screen>
+        </div>
     )
 }

@@ -35,8 +35,8 @@ export const metadata: Metadata = {
 
 const RootLayout: FC<PropsWithChildren> = ({children}) => {
     return (
-        <html lang="zh-CN" className="noise">
-        <body className={`${sansFont.variable} ${serifFont.variable} m-0 h-full p-0 font-sans`}>
+        <html lang="zh-CN">
+        <body className={`${sansFont.variable} ${serifFont.variable} font-sans`}>
         <Root>{children}</Root>
         </body>
         </html>

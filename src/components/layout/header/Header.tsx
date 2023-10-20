@@ -1,23 +1,22 @@
-import Link from "next/link";
-import {config} from "@/config";
+import Link from 'next/link'
+import {config} from '@/config'
 
 export const Header = () => {
     return (
-        <header
-            className="fixed left-0 right-0 top-0 z-[9] h-[4.5rem] overflow-hidden transition-shadow duration-200"
-        >
-            <HeaderBackground/>
-            <div className="relative h-full flex items-center">
-                <div className="px-6 h-full flex center">
-                    <Link href="/">{config.siteName}</Link>
+        <header>
+            <nav className="h-16 max-w-6xl mx-auto flex justify-between items-center">
+                <div className="h-full mx-4 flex items-center">
+                    <Link className="text-2xl font-bold" href="/" title={config.siteName}>TRUIMO</Link>
                 </div>
-            </div>
+                <ul className="h-full mx-4 text-lg flex items-center">
+                    <li className="ms-4 h-full flex items-center">
+                        <Link href="#" title="Friends">Friends</Link>
+                    </li>
+                    <li className="ms-4 h-full flex items-center">
+                        <Link href="#" title="About">About</Link>
+                    </li>
+                </ul>
+            </nav>
         </header>
-    )
-}
-
-export const HeaderBackground = () => {
-    return (
-        <div className="absolute inset-0 bg-themed-bg_opacity"></div>
     )
 }
