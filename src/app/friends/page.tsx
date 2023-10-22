@@ -25,7 +25,7 @@ export default function Page() {
 const Link: FC<{ data: Link }> = (props) => {
     const {name, description, url, avatar} = props.data
     return (
-        <div className="p-3 rounded-lg hover:bg-slate-200/80 dark:hover:bg-neutral-600/80">
+        <div className="p-3 rounded-lg hover:bg-slate-200/80 dark:hover:bg-neutral-600/80 transition-colors">
             <a className="flex items-center hover:no-underline" href={url} target="_blank" role="link">
                 <div className="h-16 w-16 rounded-full border overflow-hidden">
                     <img className="aspect-square" src={avatar} height="64" width="64" alt="avatar" loading="lazy"/>
