@@ -93,7 +93,7 @@ export const friends: FriendLink[] = [
     }, {
         name: 'MiaoMint',
         description: '小喵~',
-        url: 'https://miaomint.cn',
+        url: 'https://0u0.ren',
         avatar: 'https://q1.qlogo.cn/g?b=qq&k=G1ibIlnicR8Ij4CZO3BF6cVA&s=640'
     }, {
         name: 'Wibus',
