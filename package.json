@@ -21,7 +21,7 @@
     "@iconify/tailwind": "^0.1.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "20.8.10",
-    "@types/react": "18.2.31",
+    "@types/react": "18.2.34",
     "@types/react-dom": "18.2.14",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
