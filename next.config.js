@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 process.title = 'Home (NextJS)'
 const nextConfig = {
-    experimental: {
-        appDir: true,
-    },
+    reactStrictMode: true,
+    productionBrowserSourceMaps: true,
+    output: 'standalone',
     images: {
         remotePatterns: [
             {

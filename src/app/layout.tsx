@@ -1,9 +1,17 @@
 import '@/style/index.css'
-import {Metadata} from 'next'
+import type {Metadata, Viewport} from 'next'
 import type {FC, PropsWithChildren} from 'react'
 import {config} from '@/config'
 import {Root} from '@/components/layout/root'
 import {sansFont, serifFont} from '@/lib/fonts'
+
+export const viewport: Viewport = {
+    width: 'device-width',
+    initialScale: 1,
+    minimumScale: 1,
+    maximumScale: 1,
+    userScalable: false
+}
 
 export const metadata: Metadata = {
     metadataBase: new URL(config.siteUrl),
@@ -13,13 +21,6 @@ export const metadata: Metadata = {
     },
     description: config.description,
     keywords: config.keywords,
-    viewport: {
-        width: 'device-width',
-        initialScale: 1,
-        minimumScale: 1,
-        maximumScale: 1,
-        userScalable: false,
-    },
     openGraph: {
         type: 'website',
         locale: 'zh-Hans',

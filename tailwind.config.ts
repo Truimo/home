@@ -185,6 +185,7 @@ const twConfig: Config = {
         },
     },
     daisyui: {
+        logs: false,
         themes: [
             {
                 light: {
