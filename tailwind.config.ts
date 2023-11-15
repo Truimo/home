@@ -185,48 +185,7 @@ const twConfig: Config = {
         },
     },
     daisyui: {
-        themes: [
-            {
-                light: {
-                    'color-scheme': 'light',
-                    // 浅葱
-                    primary: '#33A6B8',
-                    secondary: '#A8D8B9',
-                    accent: '#33A6B8',
-                    'accent-content': '#fafafa',
-                    neutral: UIKitColors.grey3.light,
-                    'base-content': UIKitColors.label.primary.light,
-                    info: UIKitColors.blue.light,
-                    success: UIKitColors.green.light,
-                    warning: UIKitColors.orange.light,
-                    error: UIKitColors.red.light,
-                    '--rounded-btn': '1.9rem',
-                    '--tab-border': '2px',
-                    '--tab-radius': '.5rem',
-                },
-            },
-            {
-                dark: {
-                    'color-scheme': 'dark',
-                    // 桃
-                    primary: '#F596AA',
-                    // 洗朱
-                    secondary: '#FB966E',
-                    accent: '#F596AA',
-                    neutral: UIKitColors.grey3.dark,
-                    'base-100': UIKitColors.background.primary.dark,
-                    'base-content': UIKitColors.label.primary.dark,
-                    info: UIKitColors.blue.dark,
-                    success: UIKitColors.green.dark,
-                    warning: UIKitColors.orange.dark,
-                    error: UIKitColors.red.dark,
-                    '--rounded-btn': '1.9rem',
-                    '--tab-border': '2px',
-                    '--tab-radius': '.5rem',
-                },
-            },
-        ],
-        darkTheme: 'dark',
+        logs: false
     },
     plugins: [
         addDynamicIconSelectors(),
