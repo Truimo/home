@@ -76,29 +76,3 @@ export const linkSections: LinkSection[] = [
         ],
     },
 ]
-
-type FriendLink = {
-    name: string
-    description: string
-    url: string
-    avatar: string
-}
-
-export const friends: FriendLink[] = [
-    {
-        name: '提莫酱のBlog',
-        description: 'Let\'s start learning !',
-        url: 'https://www.timochan.cn',
-        avatar: 'https://api.timochan.cn/apc/objects/icon/5ginkjzu6hseqczpgb.jpg'
-    }, {
-        name: 'MiaoMint',
-        description: '小喵~',
-        url: 'https://0u0.ren',
-        avatar: 'https://q1.qlogo.cn/g?b=qq&k=G1ibIlnicR8Ij4CZO3BF6cVA&s=640'
-    }, {
-        name: 'Wibus',
-        description: 'Just Uaeua',
-        url: 'https://www.wibus.ren',
-        avatar: 'https://www.wibus.ren/favicon.png'
-    }
-]
