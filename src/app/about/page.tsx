@@ -4,10 +4,6 @@ export default function Page() {
         <div>
             <h2 className="text-2xl font-bold leading-loose">Me</h2>
             <p className="leading-relaxed">我叫 <span className="underline">“浅小沫”</span>，你可以叫我：小沫、<b>小白</b>！英文 ID 是 “Truimo”，已经不太清楚这个 ID 是怎么来的了...</p>
-            <h3 className="text-lg font-semibold leading-loose">Hobby</h3>
-            <p className="leading-relaxed">对计算机有浓厚的兴趣</p>
-            <p className="leading-relaxed">喜欢阅读，常阅读科幻、悬疑类</p>
-            <p className="leading-relaxed">喜欢音乐，学废过乐器，以听音乐为主</p>
             <h3 className="text-lg font-semibold leading-loose">Contact</h3>
             <p className="leading-relaxed">电子邮件: <a href="mailto:i@truimo.com">i@truimo.com</a></p>
             <h2 className="text-2xl font-bold leading-loose">Domain</h2>
