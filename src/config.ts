@@ -39,8 +39,8 @@ export interface Link {
 export const config: Config = {
     siteUrl: 'https://www.truimo.com',
     siteName: '浅小沫',
-    title: '浅小沫 | Truimo',
-    description: '浅小沫的主页，Truimo`s Home Page.',
+    title: '浅小沫 | Truimo - 我的学习笔记',
+    description: '浅小沫的个人网站，Truimo`s Home Page.',
     keywords: ['Truimo', '浅小沫', 'truimo', '小沫'],
     icons: [{
         rel: 'icon',
