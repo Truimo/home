@@ -20,7 +20,7 @@
     "@iconify/tailwind": "1.1.3",
     "@tailwindcss/typography": "0.5.15",
     "@types/node": "20.16.5",
-    "@types/react": "18.3.6",
+    "@types/react": "18.3.7",
     "@types/react-dom": "18.3.0",
     "autoprefixer": "10.4.20",
     "daisyui": "4.12.10",
