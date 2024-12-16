@@ -11,7 +11,7 @@
   "dependencies": {
     "clsx": "2.1.1",
     "foxact": "0.2.43",
-    "jotai": "2.10.3",
+    "jotai": "2.10.4",
     "next": "15.1.0",
     "react": "19.0.0",
     "react-dom": "19.0.0"
