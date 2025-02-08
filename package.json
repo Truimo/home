@@ -1,37 +1,37 @@
 {
-  "name": "home",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "clsx": "2.1.1",
-    "foxact": "0.2.44",
-    "jotai": "2.11.3",
-    "next": "15.1.6",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "tailwind-merge": "^3.0.1"
-  },
-  "devDependencies": {
-    "@iconify/tailwind": "1.2.0",
-    "@tailwindcss/postcss": "^4.0.4",
-    "@tailwindcss/typography": "0.5.16",
-    "@types/node": "22.13.1",
-    "@types/react": "19.0.8",
-    "@types/react-dom": "19.0.3",
-    "autoprefixer": "10.4.20",
-    "babel-plugin-react-compiler": "19.0.0-beta-714736e-20250131",
-    "daisyui": "5.0.0-beta.7",
-    "postcss": "8.5.1",
-    "postcss-import": "16.1.0",
-    "tailwind-variants": "0.3.1",
-    "tailwindcss": "^4.0.4",
-    "typescript": "5.7.2"
-  },
-  "license": "AGPL-3.0"
+    "name": "home",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "clsx": "2.1.1",
+        "foxact": "0.2.44",
+        "jotai": "2.11.3",
+        "next": "15.1.6",
+        "react": "19.0.0",
+        "react-dom": "19.0.0",
+        "tailwind-merge": "^3.0.1"
+    },
+    "devDependencies": {
+        "@iconify/tailwind": "1.2.0",
+        "@tailwindcss/postcss": "^4.0.4",
+        "@tailwindcss/typography": "0.5.16",
+        "@types/node": "22.13.1",
+        "@types/react": "19.0.8",
+        "@types/react-dom": "19.0.3",
+        "autoprefixer": "10.4.20",
+        "babel-plugin-react-compiler": "19.0.0-beta-714736e-20250131",
+        "daisyui": "5.0.0-beta.7",
+        "postcss": "8.5.1",
+        "postcss-import": "16.1.0",
+        "tailwind-variants": "0.3.1",
+        "tailwindcss": "^4.0.4",
+        "typescript": "5.7.2"
+    },
+    "license": "AGPL-3.0"
 }
