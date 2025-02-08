@@ -13,9 +13,6 @@ const nextConfig: NextConfig = {
     experimental: {
         cssChunking: true,
         reactCompiler: true,
-        serverActions: {
-            allowedOrigins: ['isnook.com'],
-        },
     },
 };
 
