@@ -55,8 +55,8 @@ importers:
         specifier: 19.0.0-beta-e552027-20250112
         version: 19.0.0-beta-e552027-20250112
       daisyui:
-        specifier: 5.0.0-beta.7
-        version: 5.0.0-beta.7
+        specifier: 5.0.0-beta.8
+        version: 5.0.0-beta.8
       postcss:
         specifier: 8.5.1
         version: 8.5.1
@@ -405,8 +405,8 @@ packages:
   csstype@3.1.2:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
 
-  daisyui@5.0.0-beta.7:
-    resolution: {integrity: sha512-AW158KxukhyWwU9HTlfNkjAa9nPcfUZilITK7Taa3pqwVH/Suq31+1FHVcw7zLVRRw5jBUKrJ76xBQJOcRiKgQ==}
+  daisyui@5.0.0-beta.8:
+    resolution: {integrity: sha512-jSokqm5i+Pv1jG80wliNzMHjmcF+iMx5xRUpk0/QExVoVNyQNWeCsaWJQubPvUq7bt9nzSsQTR2uIZBoyIIoaA==}
 
   detect-libc@1.0.3:
     resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
@@ -989,7 +989,7 @@ snapshots:
 
   csstype@3.1.2: {}
 
-  daisyui@5.0.0-beta.7: {}
+  daisyui@5.0.0-beta.8: {}
 
   detect-libc@1.0.3: {}
 
