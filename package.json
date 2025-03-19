@@ -10,7 +10,7 @@
     },
     "dependencies": {
         "clsx": "2.1.1",
-        "foxact": "0.2.44",
+        "foxact": "0.2.45",
         "jotai": "2.12.2",
         "next": "15.2.2",
         "react": "19.0.0",

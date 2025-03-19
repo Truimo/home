@@ -12,8 +12,8 @@ importers:
         specifier: 2.1.1
         version: 2.1.1
       foxact:
-        specifier: 0.2.44
-        version: 0.2.44(react@19.0.0)
+        specifier: 0.2.45
+        version: 0.2.45(react@19.0.0)
       jotai:
         specifier: 2.12.2
         version: 2.12.2(@types/react@19.0.10)(react@19.0.0)
@@ -423,8 +423,8 @@ packages:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
 
-  foxact@0.2.44:
-    resolution: {integrity: sha512-+dBx0dXnfTDuYrDIDXYVeQw+Dw6YEDwyZwvmkycCuzP78rWfE7xBSzlEIX46ge14hD4DZ3i2tTEE3SoDTAVihA==}
+  foxact@0.2.45:
+    resolution: {integrity: sha512-pizJ+4hlSxs+mZKjJxhcwzY1uR4/7paZGgU/NQLrzY6Q0wa8RBZvhOxzg/HzXRAcglTt2y6DlIqPn85cTNdmcg==}
     peerDependencies:
       react: '*'
     peerDependenciesMeta:
@@ -979,7 +979,7 @@ snapshots:
 
   escalade@3.2.0: {}
 
-  foxact@0.2.44(react@19.0.0):
+  foxact@0.2.45(react@19.0.0):
     dependencies:
       client-only: 0.0.1
       server-only: 0.0.1
