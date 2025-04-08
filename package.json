@@ -25,7 +25,7 @@
         "@types/react": "19.1.0",
         "@types/react-dom": "19.1.1",
         "autoprefixer": "10.4.21",
-        "babel-plugin-react-compiler": "19.0.0-beta-e993439-20250328",
+        "babel-plugin-react-compiler": "19.0.0-beta-e993439-20250405",
         "daisyui": "5.0.9",
         "postcss": "8.5.3",
         "postcss-import": "16.1.0",
