@@ -16,7 +16,7 @@ importers:
         version: 0.2.45(react@19.1.0)
       jotai:
         specifier: 2.12.2
-        version: 2.12.2(@types/react@19.1.0)(react@19.1.0)
+        version: 2.12.2(@types/react@19.1.1)(react@19.1.0)
       next:
         specifier: 15.3.0
         version: 15.3.0(babel-plugin-react-compiler@19.0.0-beta-e993439-20250405)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -43,11 +43,11 @@ importers:
         specifier: 22.13.14
         version: 22.13.14
       '@types/react':
-        specifier: 19.1.0
-        version: 19.1.0
-      '@types/react-dom':
         specifier: 19.1.1
-        version: 19.1.1(@types/react@19.1.0)
+        version: 19.1.1
+      '@types/react-dom':
+        specifier: 19.1.2
+        version: 19.1.2(@types/react@19.1.1)
       autoprefixer:
         specifier: 10.4.21
         version: 10.4.21(postcss@8.5.3)
@@ -351,13 +351,13 @@ packages:
   '@types/node@22.13.14':
     resolution: {integrity: sha512-Zs/Ollc1SJ8nKUAgc7ivOEdIBM8JAKgrqqUYi2J997JuKO7/tpQC+WCetQ1sypiKCQWHdvdg9wBNpUPEWZae7w==}
 
-  '@types/react-dom@19.1.1':
-    resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
+  '@types/react-dom@19.1.2':
+    resolution: {integrity: sha512-XGJkWF41Qq305SKWEILa1O8vzhb3aOo3ogBlSmiqNko/WmRb6QIaweuZCXjKygVDXpzXb5wyxKTSOsmkuqj+Qw==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.0':
-    resolution: {integrity: sha512-UaicktuQI+9UKyA4njtDOGBD/67t8YEBt2xdfqu8+gP9hqPUPsiXlNPcpS2gVdjmis5GKPG3fCxbQLVgxsQZ8w==}
+  '@types/react@19.1.1':
+    resolution: {integrity: sha512-ePapxDL7qrgqSF67s0h9m412d9DbXyC1n59O2st+9rjuuamWsZuD2w55rqY12CbzsZ7uVXb5Nw0gEp9Z8MMutQ==}
 
   autoprefixer@10.4.21:
     resolution: {integrity: sha512-O+A6LWV5LDHSJD3LjHYoNi4VLsj/Whi7k6zG12xTYaU4cQ8oxQGckXNX8cRHK5yOZ/ppVHe0ZBXGzSV9jXdVbQ==}
@@ -914,11 +914,11 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/react-dom@19.1.1(@types/react@19.1.0)':
+  '@types/react-dom@19.1.2(@types/react@19.1.1)':
     dependencies:
-      '@types/react': 19.1.0
+      '@types/react': 19.1.1
 
-  '@types/react@19.1.0':
+  '@types/react@19.1.1':
     dependencies:
       csstype: 3.1.2
 
@@ -1016,9 +1016,9 @@ snapshots:
 
   jiti@2.4.2: {}
 
-  jotai@2.12.2(@types/react@19.1.0)(react@19.1.0):
+  jotai@2.12.2(@types/react@19.1.1)(react@19.1.0):
     optionalDependencies:
-      '@types/react': 19.1.0
+      '@types/react': 19.1.1
       react: 19.1.0
 
   lightningcss-darwin-arm64@1.29.2:
