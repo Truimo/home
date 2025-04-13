@@ -1,18 +1,26 @@
 @import 'tailwindcss';
-@plugin 'daisyui';
-@import './variables.css';
+
+:root {
+    --bg-opacity: rgba(255, 255, 255, 0.72);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-opacity: rgba(29, 29, 31, 0.72);
+    }
+}
 
 html {
     font-size: 15px;
     line-height: 1.5;
 }
 
-a:hover {
-    text-decoration: underline;
+body {
+    color-scheme: light dark;
 }
 
-* {
-    tab-size: 2;
+a:hover {
+    text-decoration: underline;
 }
 
 .main {
