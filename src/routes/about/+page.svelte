@@ -1,6 +1,7 @@
 <svelte:head>
     <title>关于 - 浅小沫</title>
     <meta name="description" content="关于浅小沫，他是谁？" />
+    <link rel="canonical" href="https://www.truimo.com/about" />
 </svelte:head>
 
 <h2 class="text-2xl font-bold leading-loose">Me</h2>
