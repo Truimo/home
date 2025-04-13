@@ -2,15 +2,15 @@
 
 :root {
     color-scheme: dark light;
-    --background: #fffefa;
-    --foreground: #171717;
+    --background: #fff;
+    --foreground: #333;
 }
 
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #0c0c0c;
-        --foreground: #ededed;
+        --background: #191919;
+        --foreground: #fcfcfc;
     }
 }
 
@@ -22,6 +22,7 @@ html {
 body {
     color: var(--foreground);
     background-color: var(--background);
+    font-family: Consolas, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 
 a:hover {

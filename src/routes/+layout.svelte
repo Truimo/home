@@ -7,7 +7,6 @@
     let { children } = $props()
 </script>
 
-
 <Header/>
 <main class="main">
 {@render children()}

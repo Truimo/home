@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>关于 - 浅小沫</title>
+    <meta name="description" content="关于浅小沫，他是谁？" />
+</svelte:head>
+
 <h2 class="text-2xl font-bold leading-loose">Me</h2>
 <p class="leading-relaxed">我叫 <span class="underline">“浅小沫”</span>，你可以叫我：小沫、<b>小白</b>！英文 ID 是 “Truimo”，已经不太清楚这个 ID 是怎么来的了...</p>
 <h3 class="text-lg font-semibold leading-loose">- Contact</h3>
