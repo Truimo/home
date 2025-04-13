@@ -1,12 +1,16 @@
 @import 'tailwindcss';
 
 :root {
-    --bg-opacity: rgba(255, 255, 255, 0.72);
+    color-scheme: dark light;
+    --background: #fffefa;
+    --foreground: #171717;
 }
+
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-opacity: rgba(29, 29, 31, 0.72);
+        --background: #0c0c0c;
+        --foreground: #ededed;
     }
 }
 
@@ -16,7 +20,8 @@ html {
 }
 
 body {
-    color-scheme: light dark;
+    color: var(--foreground);
+    background-color: var(--background);
 }
 
 a:hover {
