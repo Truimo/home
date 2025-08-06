@@ -25,13 +25,13 @@ importers:
         version: 5.37.3
       svelte-check:
         specifier: ^4.0.0
-        version: 4.3.0(picomatch@4.0.2)(svelte@5.37.3)(typescript@5.8.3)
+        version: 4.3.0(picomatch@4.0.2)(svelte@5.37.3)(typescript@5.9.2)
       tailwindcss:
         specifier: ^4.0.0
         version: 4.1.11
       typescript:
         specifier: ^5.0.0
-        version: 5.8.3
+        version: 5.9.2
       vite:
         specifier: ^7.0.0
         version: 7.0.2(jiti@2.4.2)(lightningcss@1.30.1)
@@ -1062,8 +1062,8 @@ packages:
   tr46@0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1939,7 +1939,7 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  svelte-check@4.3.0(picomatch@4.0.2)(svelte@5.37.3)(typescript@5.8.3):
+  svelte-check@4.3.0(picomatch@4.0.2)(svelte@5.37.3)(typescript@5.9.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.29
       chokidar: 4.0.3
@@ -1947,7 +1947,7 @@ snapshots:
       picocolors: 1.1.1
       sade: 1.8.1
       svelte: 5.37.3
-      typescript: 5.8.3
+      typescript: 5.9.2
     transitivePeerDependencies:
       - picomatch
 
@@ -1990,7 +1990,7 @@ snapshots:
 
   tr46@0.0.3: {}
 
-  typescript@5.8.3: {}
+  typescript@5.9.2: {}
 
   vite@7.0.2(jiti@2.4.2)(lightningcss@1.30.1):
     dependencies:
