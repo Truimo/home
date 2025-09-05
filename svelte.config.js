@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-vercel'
+import adapter from '@sveltejs/adapter-static'
 import {vitePreprocess} from '@sveltejs/vite-plugin-svelte'
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -8,7 +8,13 @@ const config = {
         alias: {
             '@/*': './src/*',
         },
-        adapter: adapter(),
+        prerender: {
+            entries: ['/', '/about', '/404']
+        },
+        adapter: adapter({
+            precompress: false,
+            strict: false,
+		}),
     },
 }
 
