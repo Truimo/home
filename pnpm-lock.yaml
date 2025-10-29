@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.9
         version: 3.0.9(@sveltejs/kit@2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))
       '@sveltejs/adapter-vercel':
-        specifier: ^5.10.2
-        version: 5.10.2(@sveltejs/kit@2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(rollup@4.52.4)
+        specifier: ^6.0.0
+        version: 6.1.1(@sveltejs/kit@2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(rollup@4.52.4)
       '@sveltejs/kit':
         specifier: ^2.43.2
         version: 2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1))
@@ -365,8 +365,9 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/adapter-vercel@5.10.2':
-    resolution: {integrity: sha512-uWm0jtXbwvXxmELiIXSQ7tcPjlG8roadujxImIxqbKKZ64itZDwTbUsVXYEfUX59LvLjolW9jaODhL6sBTh5NQ==}
+  '@sveltejs/adapter-vercel@6.1.1':
+    resolution: {integrity: sha512-rnuREIO/dBYZn825aXTmdCU7sBr4nQqxNVkqYLUHoUnuv3vaas6O/SxAI1TiYBDEetgeQ5m51I5dTVJvhVzASA==}
+    engines: {node: '>=20.0'}
     peerDependencies:
       '@sveltejs/kit': ^2.4.0
 
@@ -1213,7 +1214,7 @@ snapshots:
     dependencies:
       '@sveltejs/kit': 2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1))
 
-  '@sveltejs/adapter-vercel@5.10.2(@sveltejs/kit@2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(rollup@4.52.4)':
+  '@sveltejs/adapter-vercel@6.1.1(@sveltejs/kit@2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(rollup@4.52.4)':
     dependencies:
       '@sveltejs/kit': 2.47.2(@sveltejs/vite-plugin-svelte@6.2.0(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1)))(svelte@5.41.0)(vite@7.1.9(jiti@2.6.0)(lightningcss@1.30.1))
       '@vercel/nft': 0.30.1(rollup@4.52.4)
